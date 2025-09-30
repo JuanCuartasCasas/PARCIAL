@@ -33,8 +33,7 @@ class BiblioU(Usuario):
         print("\t\t 3.Cronica")
         print("\t\t 4.Biografia")
         numero = input("\t\t por favor escriba el número de categoria de su libro: ")
-        int(numero)
-        while (numero != 1 and  numero != 2 and numero != 3 and  numero != 4):
+        while (numero != '1' and  numero != '2' and numero != '3' and  numero != '4'):
             print("\t\t Categoria Incorrecta")
             numero = input("\t\t por favor escriba el número de categoria de su libro: ")
         if numero == 1:
